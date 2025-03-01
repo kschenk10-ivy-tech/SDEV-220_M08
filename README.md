@@ -119,3 +119,10 @@ Contact
 <!--
 For questions or feedback, please contact the repository owner or open an issue on GitHub.  
 -->
+
+
+### Testing
+
+```bash
+python -m unittest test_final_project.py
+```
