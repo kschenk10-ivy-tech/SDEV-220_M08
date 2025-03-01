@@ -108,13 +108,13 @@ Contributing
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.  
 -->
 ---
-
+<!--
 License 
 <!--
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/kschenk10-ivy-tech/SDEV-220_Final-Project/blob/main/LICENSE) file for details.  
 -->
 ---
-
+<!--
 Contact
 <!--
 For questions or feedback, please contact the repository owner or open an issue on GitHub.  
