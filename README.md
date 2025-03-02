@@ -5,120 +5,50 @@ SDEV220 | Final
 
 # Python Application for Bath & Body Works
 
-[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/kschenk10-ivy-tech/SDEV-220_Final-Project)  
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/kschenk10-ivy-tech/SDEV-220_M08.git)
 [![Trello Board](https://img.shields.io/badge/Trello-Board-blue)](https://trello.com/invite/b/67b7abfc18f18ce15b085bfb/ATTI33b20571a5d8fcfcf77f75b7131772531A707EB3/sdev-220)
-<!--
-![Screenshot of Python Program](https://github.com/kschenk10-ivy-tech/SDEV-220_Final-Project/blob/main/Screenshot%202025-02-20%20204202.png?raw=true)
+
+![Screenshot of Final Project running](https://github.com/kschenk10-ivy-tech/SDEV-220_M08/blob/main/Screenshots/Screenshot%202025-03-01%20191317.png?raw=true)
+
+
 ## Overview  
 This Python application is designed for Bath & Body Works customers to log and track their favorite fragrances by year and season. Users can create shopping lists linked to birthdays, holidays, and special occasions, organizing purchases by week, day, and year. The application provides a user-friendly interface to manage fragrance collections, organize shopping lists, and track preferences over time.
 -->
 ---
 
-<!--
-## Features  
+### Dependencies:
+- Python 3.x
+- tkinter (standard Python library)
+- json (standard Python library)
+- datetime (standard Python library)
 
-**Fragrance Collection Management**  
-- Add, update, and categorize fragrances in a personal inventory.  
-- Assign custom labels and statuses to fragrances.  
+### How it works:
+1. Fragrance Management:
+   - Users can add new fragrances with details like name, year, season, and status.
+   - Fragrances can be removed or updated (e.g., changing the status).
+   - Fragrance data is saved to and loaded from a JSON file (`fragrances.json`).
 
-**Seasonal Organization**  
-- Organize fragrances by year and season (e.g., Spring 2023, Winter 2022).  
+2. Shopping List Management:
+   - Users can create shopping lists for specific occasions (e.g., birthdays, holidays).
+   - Lists can include items, and for birthdays, users can add a person's name and birthdate.
+   - Shopping lists can be edited, exported to a text file, or viewed with detailed information.
+   - Shopping list data is saved to and loaded from a JSON file (`shopping_lists.json`).
 
-**Shopping List Integration**  
-- Create and manage shopping lists for birthdays, holidays, and special events.  
-- Save and categorize lists as Drafts, Final, Last Year, This Year, or All Time.  
+3. Birthday Tracking:
+   - For shopping lists with a birthday occasion, the program calculates the person's age and the number of days 
+     until their next birthday.
+   - A dedicated "Calendar" tab displays all birthday-related shopping lists with age and days until the next birthday.
 
-**Status Labels**  
-- Assign statuses to fragrances, such as:  
-  - **SHOPPING LIST**  
-  - **I Have Not Smelled**  
-  - **I Like This One**  
-  - **Wishlist**  
+4. User Interface:
+   - The program uses a tabbed interface (Notebook) to separate fragrance management, shopping list management, 
+     and birthday tracking.
+   - Users interact with the program through forms, buttons, and treeview widgets to manage their data.
 
-### **Data Storage & Retrieval**  
-- Save and access data using JSON files for persistent storage.  
-- Organized by Year, Month, and Day for easy retrieval.  
-
-**Birthday Computation**  
-- Automatically calculate ages and days until the next birthday.  
-- Track birthday-related events and shopping lists.  
-
-**User Prompts & Actions**  
-- **Create and Manage Lists:**  
-  - Create new shopping lists.  
-  - Open existing lists (dropdown menu for available years).  
-  - Edit, export, or share lists.  
-- **Notifications:**  
-  - Enable push or email reminders for upcoming events.  
-- **Data Updates:**  
-  - Confirm updates before exiting.  
-  - Prompt users to save changes.  
-
----
-
-### Data Fields  
-
-**Year & Month**  
-- Organized by year, with individual months listed for easy navigation.  
-
-**Day (01-31)**  
-- Assign specific events or purchases to each day.  
-
-**Name Format**  
-- Supports both (Last, First) and (First, Last) formats.  
-
-**Age This Year**  
-- Automatically calculated and displayed for birthday-related events.  
-
----
-
-## User Editing Options  
-
-- **Create a Shopping List:**  
-  - Start a new list from scratch.  
-- **Edit an Existing List:**  
-  - Modify saved lists with new items or statuses.  
-- **Export/Share Lists:**  
-  - Export lists to share with others or for personal use.  
-- **Set Reminders:**  
-  - Configure push or email notifications for upcoming events.  
-
----
-
-## How to Use  
-
-1. **Clone the Repository:**  
-   ```bash
-   git clone 
-   ```
-2. **Install Dependencies:**  
-   Ensure Python 3.x is installed. No additional dependencies are required.  
-3. **Run the Application:**  
-   Execute the main Python script to launch the application.  
-   ```bash
-   python FinalProject.py
-   ```
-4. **Follow On-Screen Prompts:**  
-   Use the intuitive interface to manage your fragrance collection and shopping lists.  
-
----
-
-Contributing 
-<!--
-Contributions are welcome! Please fork the repository and submit a pull request with your changes.  
--->
----
-<!--
-License 
-<!--
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/kschenk10-ivy-tech/SDEV-220_Final-Project/blob/main/LICENSE) file for details.  
--->
----
-<!--
-Contact
-<!--
-For questions or feedback, please contact the repository owner or open an issue on GitHub.  
--->
+### Usage:
+- Run the program, and the GUI will open.
+- Use the "Fragrances" tab to manage fragrance records.
+- Use the "Shopping Lists" tab to create, edit, and view shopping lists.
+- Use the "Calendar" tab to view upcoming birthdays and related shopping lists.
 
 
 ### Testing
