@@ -1,6 +1,6 @@
 # Module 8 Final Project Submission
 Khristin Schenk<br>
-Last Updated: on March 1, 2025<br>
+Last Updated: on March 4, 2025<br>
 SDEV220 | Final
 
 # Python Application for Bath & Body Works
