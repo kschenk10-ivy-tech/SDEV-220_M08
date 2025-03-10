@@ -1,7 +1,7 @@
 """
 Khristin Schenk
 SDEV 220 | Final Project
-Last Updated: March 1, 2025
+Last Updated: March 9, 2025
 
 Fragrance Record Keeper for Bath and Body Works
 

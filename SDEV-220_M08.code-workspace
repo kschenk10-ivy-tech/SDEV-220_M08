@@ -1,0 +1,60 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"diffEditor.diffAlgorithm": "legacy",
+		"diffEditor.experimental.showEmptyDecorations": false,
+		"files.autoSave": "onFocusChange",
+		"scm.diffDecorations": "none",
+		"editor.showFoldingControls": "always",
+		"editor.renderLineHighlight": "none",
+		"scm.diffDecorationsGutterPattern": {
+			"modified": false
+		},
+		"scm.diffDecorationsGutterAction": "none",
+		"testing.gutterEnabled": false,
+		"diffEditor.renderGutterMenu": false,
+		"debug.gutterMiddleClickAction": "none",
+		"editor.colorDecorators": false,
+		"editor.colorDecoratorsActivatedOn": "click",
+		"editor.defaultColorDecorators": "never",
+		"editor.unicodeHighlight.includeComments": false,
+		"workbench.cloudChanges.autoResume": "off",
+		"workbench.cloudChanges.continueOn": "off",
+		"editor.renderWhitespace": "none",
+		"editor.experimentalWhitespaceRendering": "off",
+		"editor.renderControlCharacters": false,
+		"editor.renderFinalNewline": "off",
+		"diffEditor.renderIndicators": false,
+		"diffEditor.renderMarginRevertIcon": false,
+		"diffEditor.renderSideBySide": true,
+		"editor.minimap.renderCharacters": false,
+		"workbench.tree.renderIndentGuides": "none",
+		"editor.guides.indentation": false,
+		"editor.glyphMargin": false,
+		"breadcrumbs.icons": false,
+		"workbench.reduceMotion": "on",
+		"explorer.compactFolders": false,
+		"outline.icons": false,
+		"scm.compactFolders": false,
+		"terminal.integrated.customGlyphs": false,
+		"notebook.compactView": false,
+		"notebook.consolidatedOutputButton": false,
+		"terminal.integrated.gpuAcceleration": "off",
+		"editor.matchBrackets": "never",
+		"editor.bracketPairColorization.enabled": false,
+		"workbench.preferredHighContrastLightColorTheme": "Aura Dark",
+		"editor.unicodeHighlight.nonBasicASCII": false,
+		"editor.unicodeHighlight.invisibleCharacters": false,
+		"editor.unicodeHighlight.includeStrings": false,
+		"editor.unicodeHighlight.ambiguousCharacters": false,
+		"editor.selectionHighlight": false,
+		"editor.guides.highlightActiveIndentation": false,
+		"editor.guides.highlightActiveBracketPair": false,
+		"editor.copyWithSyntaxHighlighting": false,
+		"editor.foldingHighlight": false
+	}
+}
