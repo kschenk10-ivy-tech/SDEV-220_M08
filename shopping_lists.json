@@ -1,1 +1,10 @@
-[{"name": "List One", "year": 2025, "occasion": "Birthday", "items": [], "person_name": "Khristin Schenk", "birthdate": "1988-04-29"}]
+[
+    {
+        "name": "List One",
+        "year": 2025,
+        "occasion": "Birthday",
+        "items": [],
+        "person_name": "Khristin Schenk",
+        "birthdate": "1988-04-29"
+    }
+]
